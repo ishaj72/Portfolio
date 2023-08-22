@@ -8,16 +8,15 @@
     <link rel = "stylesheet" href="style.css">
 </head>
 <body>
+
     <header class = "header">
         <a href="#" class = "logo">Portfolio</a>
-
         <i class='bx bx-menu' id="menu-icon"></i>
-
         <nav class="navbar">
             <a href = "#home" class="active">Home</a>
             <a href = "#about">About</a>
             <a href = "#skills">Skills</a>
-            <a href = "#portfolio">Portfolio</a>
+            <a href = "#projects">Projects</a>
             <a href = "#contact">Contact</a>
         </nav>
     </header>
@@ -36,21 +35,22 @@
             <a href="#" class="btn">Download CV</a>
         </div>
         <div class="home-img">
-            <img src="img1.jpg" alt="">
+            <img src="E:\MyApps\MyPortfolio\img1.jpg" alt="">
         </div>
     </section>
 
     <section class="about" id="about">
         <div class="about-img">
-            <img src="img1.jpg" alt="">
+            <img src="E:\MyApps\MyPortfolio\img1.jpg" alt="">
         </div>
         <div class="about-content">
-            <h2 class ="heading">About<span>Me</span></h2>
+            <h2 class ="heading">About <span>Me</span></h2>
             <h3>Web Developer</h3>
-            <p>I have completed B.Tech from Jaypee University of Engineering and Technology in May 2023.<br/>
-                I am relatively new to the field of web development. While I have only created applications using Flutter, I am passionate about exploring<br/>
-                machine learning and data analysis. I possess a solid foundation in C++, and I am particularly interested in Git version control and regular<br/> expressions. Currently, 
-                I am expanding my skills by delving into both C# programming and frontend development.
+            <p>I have completed B.Tech from Jaypee University of Engineering and Technology in May 2023.I am relatively<br/>
+                 new to the field of web development. While I have only created applications using Flutter, I am passionate <br/>
+                 about exploring machine learning and data analysis. I possess a solid foundation in C++, and I am particularly 
+                 <br/> interested in Git version control and regular expressions. Currently, 
+                I am expanding my skills by delving into both<br/> C# programming and frontend development.
             </p>
             <a href ="#" class="btn">Read more</a>
         </div>
@@ -59,13 +59,87 @@
     <section class="skills" id ="skills">
         <h2 class = "heading">My <span>Skills</span></h2>
         <div class="skills-container">
-            <div class="skills-box">
+           <div class="skills-box">
                 <i class='bx bx-code'></i>
-                <h3>Proficient about</h3>
-                
+                <h3>Languages</h3>
+                <ul>
+                    <li>C++</li>
+                    <li>C#(beginer)</li>
+                    <li>HTML,CSS,JS(beginer)</li>
+                    <li>Python</li>
+                </u l>
+            </div>
+            <div class="skills-box">
+                <i class='bx bx-book'></i>
+                <h3>ML Libraries</h3>
+                <ul>
+                    <li>Pandas, Numpy</li>
+                    <li>Keras</li>
+                    <li>Matplotlib ,Seaborn</li>
+                    <li>etc.</li>
+                </u l>
+            </div>
+            <div class="skills-box">
+                <i class='bx bxs-edit-alt'></i>
+                <h3>Others</h3>
+                <ul>
+                    <li>Regex</li>
+                    <li>Flutter</li>
+                    <li>Git(basics)</li>
+                    <br/>
+                </ul>
             </div>
         </div>
     </section>
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="project-container">
+            <div class="project-box">
+                <img src="E:\MyApps\MyPortfolio\img2.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Stock Market Analysis</h4>
+                    <p>This is a stock market analysis model by creating graphs.
+                    It identify the trend and pattern for the company stock 
+                    price movement. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="E:\MyApps\MyPortfolio\img6.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Text Summerizing Model</h4>
+                    <p>This is a basic text summerizing model by which uses the method like stemming,
+                        removing stop words and kenization. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="E:\MyApps\MyPortfolio\img3.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Music Application</h4>
+                    <p>This is a music application developed using flutter.
+                        Integrated with firebase authentication to store the login
+                        id and password.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="E:\MyApps\MyPortfolio\img4.jpg" alt="">
+                <div class="project-layer">
+                    <h4>News Application</h4>
+                    <p>This is a new application developed using flutter with API.
+                        The application contains new regarding different topics.The application 
+                    will be updated with other changes.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2></h2>
+    </section>
+
     <script src="index.js"></script>
 </body>
 </html>
