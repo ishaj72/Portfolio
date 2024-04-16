@@ -31,6 +31,15 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
+ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 100,
+});
+ScrollReveal().reveal('.home-content , .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img , . skills-container , .project-box,.contact form', { origin: 'bottom' });
+
 document.addEventListener("DOMContentLoaded", function () {
     const contactForm = document.getElementById("contact-form");
 

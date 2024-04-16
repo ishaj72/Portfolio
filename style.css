@@ -304,15 +304,13 @@ span{
 }
 @keyframes changeText {
     0%, 100% {
-        content: "Frontend Developer";
+        content: "Web Developer";
     }
+    
     25% {
-        content: "Flutter Developer";
-    }
-    50% {
         content: "Analyst";
     }
-    75% {
+    50% {
         content: "Machine Learning Enthusiast";
     }
 }
@@ -398,5 +396,8 @@ span{
 @media(max-width:365px){
     .home-img img{
         width: 90vw;
+    }
+    .about-img img{
+        width:90vw;
     }
 }
