@@ -47,11 +47,11 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
 
         // Get form input values
-        const fullName = document.querySelector('input[name="Full Name"]').value;
-        const emailAddress = document.querySelector('input[name="Email Address"]').value;
-        const mobileNumber = document.querySelector('input[name="Mobile Number"]').value;
-        const emailSubject = document.querySelector('input[name="Email Subject"]').value;
-        const message = document.querySelector('textarea[name="Your Message"]').value;
+        const fullName = document.getElementById('fullName').value;
+        const emailAddress = document.getElementById('email').value;
+        const mobileNumber = document.getElementById('mobileNumber').value;
+        const emailSubject = document.getElementById('emailSubject').value;
+        const message = document.getElementById('message').value;
 
         // Display an alert with form data
         const formData = `Full Name: ${fullName}\nEmail Address: ${emailAddress}\nMobile Number: ${mobileNumber}\nEmail Subject: ${emailSubject}\nYour Message: ${message}`;
@@ -61,3 +61,4 @@ document.addEventListener("DOMContentLoaded", function () {
         contactForm.reset();
     });
 });
+
