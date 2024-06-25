@@ -5,14 +5,17 @@ This portfolio showcases my projects, skills, and provides a way to connect with
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Installation](#installation)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 - [Contributing](#contributing)
 
 ## Introduction
 
 My portfolio serves as a personal website where I showcase my projects, skills, and provide a way for visitors to connect with me. It includes sections for home, about, skills, projects, and contact.
+
+## Installation
+
 
 ## Features
 
@@ -28,15 +31,15 @@ My portfolio serves as a personal website where I showcase my projects, skills, 
 - CSS
 - JavaScript
 
-## Installation
+## Images
+- Home Page
+<img src="images\portfolio1.png" alt="addtrains" width="200" height="150">
 
-1. Clone this repository:
+- Skills
+<img src="images\portfolio2.png" alt="addtrains" width="200" height="150">
 
-   ```bash
-   git clone https://github.com/ishaj72/Portfolio
+- Projects
+<img src="images\portfolio3.png" alt="addtrains" width="200" height="150">
 
-2. Navigate Through
-cd Portfolio
-
-## Contributing
-Feel free to customize this template to better fit your portfolio project and its specific features. Let me know if you need further assistance!
+- Contact Me
+<img src="images\portfolio4.png" alt="addtrains" width="200" height="150">
