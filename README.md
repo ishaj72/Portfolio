@@ -33,13 +33,13 @@ My portfolio serves as a personal website where I showcase my projects, skills, 
 
 ## Images
 - Home Page
-<img src="images\portfolio1.png" alt="addtrains" width="200" height="150">
+<img src="./portfolio1.png" alt="addtrains" width="200" height="150">
 
 - Skills
-<img src="images\portfolio2.png" alt="addtrains" width="200" height="150">
+<img src="./portfolio2.png" alt="addtrains" width="200" height="150">
 
 - Projects
-<img src="images\portfolio3.png" alt="addtrains" width="200" height="150">
+<img src="./portfolio3.png" alt="addtrains" width="200" height="150">
 
 - Contact Me
-<img src="images\portfolio4.png" alt="addtrains" width="200" height="150">
+<img src="./portfolio4.png" alt="addtrains" width="200" height="150">
